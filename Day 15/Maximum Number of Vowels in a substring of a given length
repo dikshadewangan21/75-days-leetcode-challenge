@@ -1,0 +1,46 @@
+
+class Solution {
+public:
+    int maxVowels(std::string s, int k) {
+        // Fast lookup table for lowercase English vowels
+        bool isVowel[26] = {false};
+        isVowel['a' - 'a'] = true;
+        isVowel['e' - 'a'] = true;
+        isVowel['i' - 'a'] = true;
+        isVowel['o' - 'a'] = true;
+        isVowel['u' - 'a'] = true;
+
+        int current_vowels = 0;
+
+        // 1. Count vowels in the first window of size k
+        for (int i = 0; i < k; i++) {
+            if (isVowel[s[i] - 'a']) {
+                current_vowels++;
+            }
+        }
+
+        int max_vowels = current_vowels;
+
+        // 2. Slide the window across the rest of the string
+        for (int i = k; i < s.length(); i++) {
+            // Add the new character entering the window from the right
+            if (isVowel[s[i] - 'a']) {
+                current_vowels++;
+            }
+            // FIX: Added parentheses around s[i - k] to get the character first
+            if (isVowel[s[i - k] - 'a']) {
+                current_vowels--;
+            }
+
+            // Update the maximum count found so far
+            max_vowels = std::max(max_vowels, current_vowels);
+
+            // Optimization: If we reach the maximum possible vowels for size k, return early
+            if (max_vowels == k) {
+                return max_vowels;
+            }
+        }
+
+        return max_vowels;
+    }
+};
