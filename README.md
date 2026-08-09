@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-find-the-difference-of-two-arrays](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/2215-find-the-difference-of-two-arrays) |
 | [1207-unique-number-of-occurrences](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/1207-unique-number-of-occurrences) |
 | [2352-equal-row-and-column-pairs](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/2352-equal-row-and-column-pairs) |
+| [0217-contains-duplicate](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/0217-contains-duplicate) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-unique-number-of-occurrences](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/1207-unique-number-of-occurrences) |
 | [1657-determine-if-two-strings-are-close](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/1657-determine-if-two-strings-are-close) |
 | [2352-equal-row-and-column-pairs](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/2352-equal-row-and-column-pairs) |
+| [0217-contains-duplicate](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/0217-contains-duplicate) |
 ## String
 |  |
 | ------- |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1657-determine-if-two-strings-are-close](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/1657-determine-if-two-strings-are-close) |
+| [0217-contains-duplicate](https://github.com/dikshadewangan21/75-days-leetcode-challenge/tree/master/0217-contains-duplicate) |
 ## Counting
 |  |
 | ------- |
